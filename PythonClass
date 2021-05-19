@@ -1,0 +1,1387 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "24026f58",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hi, I am a monkey\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hi, I am a monkey\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "90b28429",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "d5189ba9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "9ae0118d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=True\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "5063f93d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=-True\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "af7e7746",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-1\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=-True\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "d7a0769a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "20\n",
+      "30\n"
+     ]
+    }
+   ],
+   "source": [
+    "a,b,c=10,20,30\n",
+    "print(a)\n",
+    "print(b)\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "b51b01a9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "True\n",
+      "30\n"
+     ]
+    }
+   ],
+   "source": [
+    "a,b,c=10,True,30\n",
+    "print(a)\n",
+    "print(b)\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "d8f2176f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "11\n",
+      "11\n",
+      "11\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=b=c=11\n",
+    "print(a)\n",
+    "print(b)\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "c1e783e4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(1, 600)\n"
+     ]
+    }
+   ],
+   "source": [
+    "#My salary=1,800\n",
+    "#mySalary=1,700\n",
+    "my_salary=1,600\n",
+    "#print(My salary)\n",
+    "#print(mySalary)\n",
+    "print(my_salary)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "0da799c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your name? Fong\n",
+      "Fong\n"
+     ]
+    }
+   ],
+   "source": [
+    "name= input(\"What is your name? \")\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d45bbe6a",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "07e57cee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your name? Fong\n",
+      "Hi Fong Have a good day!\n"
+     ]
+    }
+   ],
+   "source": [
+    "name= input(\"What is your name? \")\n",
+    "print('Hi',name,'Have a good day!')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "857c449b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your name? Fong\n",
+      "Hi Fong Have a good day!\n"
+     ]
+    }
+   ],
+   "source": [
+    "name= input(\"What is your name? \")\n",
+    "print('Hi '+ name +' Have a good day!')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "4e3feb12",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your name? Fong\n",
+      "What is your colour? Blue\n",
+      "Fong likes the colour Blue\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Create 2 variables(input),Name,colour\n",
+    "\n",
+    "Name= input(\"What is your name? \")\n",
+    "Colour= input(\"What is your colour? \")\n",
+    "print (Name +' likes the colour '+ Colour)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "f9780502",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your birth year? 1994\n"
+     ]
+    },
+    {
+     "ename": "TypeError",
+     "evalue": "unsupported operand type(s) for -: 'int' and 'str'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m<ipython-input-30-96fd0cab63f0>\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[0myear\u001b[0m\u001b[1;33m=\u001b[0m \u001b[0minput\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"What is your birth year? \"\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m----> 2\u001b[1;33m \u001b[0mage\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;36m2021\u001b[0m \u001b[1;33m-\u001b[0m \u001b[0myear\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m      3\u001b[0m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mage\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mTypeError\u001b[0m: unsupported operand type(s) for -: 'int' and 'str'"
+     ]
+    }
+   ],
+   "source": [
+    "year= input(\"What is your birth year? \")\n",
+    "age=2021 - year\n",
+    "print(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "5cc3a898",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your birth year? 1994\n",
+      "27\n"
+     ]
+    }
+   ],
+   "source": [
+    "year= input(\"What is your birth year? \")\n",
+    "age=2021 - int(year)\n",
+    "print(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "ca283dd0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your birth year? 1994\n",
+      "27\n"
+     ]
+    }
+   ],
+   "source": [
+    "year= int(input(\"What is your birth year? \"))\n",
+    "age=2021 - year\n",
+    "print(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "b168aa23",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your birth year? 1994\n"
+     ]
+    },
+    {
+     "ename": "TypeError",
+     "evalue": "'year' is an invalid keyword argument for int()",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m<ipython-input-34-c1b6e73885f9>\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0myear\u001b[0m\u001b[1;33m=\u001b[0m \u001b[0minput\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"What is your birth year? \"\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m      2\u001b[0m \u001b[0mage\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;36m2021\u001b[0m \u001b[1;33m-\u001b[0m \u001b[0myear\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m      3\u001b[0m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mage\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mTypeError\u001b[0m: 'year' is an invalid keyword argument for int()"
+     ]
+    }
+   ],
+   "source": [
+    "int(year= input(\"What is your birth year? \"))\n",
+    "age=2021 - year\n",
+    "print(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "08b1793e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "cannot assign to function call (<ipython-input-35-07bcc5d6a0d2>, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"<ipython-input-35-07bcc5d6a0d2>\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    int(year)= input(\"What is your birth year? \")\u001b[0m\n\u001b[1;37m    ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m cannot assign to function call\n"
+     ]
+    }
+   ],
+   "source": [
+    "int(year)= input(\"What is your birth year? \")\n",
+    "age=2021 - year\n",
+    "print(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "029260f7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your birth year? 1994\n",
+      "What is the current year? 2021\n",
+      "27\n"
+     ]
+    }
+   ],
+   "source": [
+    "birth_year=int(input(\"What is your birth year? \"))\n",
+    "curr_year=int(input(\"What is the current year? \"))\n",
+    "age= curr_year-birth_year\n",
+    "print(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "79d4bf4d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your birth year? 1994\n",
+      "What is the current year? 2021\n",
+      "Hi, my age is  27.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "birth_year=float(input(\"What is your birth year? \"))\n",
+    "curr_year=float(input(\"What is the current year? \"))\n",
+    "age= curr_year-birth_year\n",
+    "print(\"Hi, my age is \", age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "9c17b713",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your weight in pounds? 40\n",
+      "18.0  kg\n"
+     ]
+    }
+   ],
+   "source": [
+    "weight_lbs=float(input(\"What is your weight in pounds? \"))\n",
+    "weight_kilos=weight_lbs*0.45\n",
+    "print(weight_kilos,\" kg\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "6179b0b0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Python's for Beginners\n"
+     ]
+    }
+   ],
+   "source": [
+    "course= \"Python's for Beginners\"\n",
+    "print(course)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "77d90a96",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Python for \"Beginners\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "course='Python for \"Beginners\"'\n",
+    "print(course)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "30c02682",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hi Team\n",
+      "    This is a test email.\n",
+      "    Regards,\n",
+      "    Support Team\n"
+     ]
+    }
+   ],
+   "source": [
+    "course='''Hi Team\n",
+    "    This is a test email.\n",
+    "    Regards,\n",
+    "    Support Team'''\n",
+    "print(course)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "b52acd26",
+   "metadata": {},
+   "source": [
+    "course='Python for Beginners'\n",
+    "print(course[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "4944e513",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndexError",
+     "evalue": "string index out of range",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mIndexError\u001b[0m                                Traceback (most recent call last)",
+      "\u001b[1;32m<ipython-input-51-4053ccdbe6d6>\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[0mcourse\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;34m'Python for \"Beginners\"'\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m----> 2\u001b[1;33m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mcourse\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m100\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mIndexError\u001b[0m: string index out of range"
+     ]
+    }
+   ],
+   "source": [
+    "course='Python for \"Beginners\"'\n",
+    "print(course[-100])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "3c8c5758",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Python\n"
+     ]
+    }
+   ],
+   "source": [
+    "course='Python for \"Beginners\"'\n",
+    "print(course[0:6])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "569ebb84",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "John[Cena] is a wrestler.\n"
+     ]
+    }
+   ],
+   "source": [
+    "first='John'\n",
+    "last='Cena'\n",
+    "message= first + '['+last+']is a wrestler.'\n",
+    "msg=f'{first}[{last}] is a wrestler.'\n",
+    "print(msg)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "54447c5f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your name? Fong\n",
+      "What is your colour? Blue\n",
+      "Fong likes the colour Blue.\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Create 2 variables(input),Name,colour\n",
+    "\n",
+    "Name= input(\"What is your name? \")\n",
+    "Colour= input(\"What is your colour? \")\n",
+    "msg=f'{Name} likes the colour {Colour}.'\n",
+    "print(msg)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "33c9e1f4",
+   "metadata": {},
+   "source": [
+    "welcome_text='Hi, welcome to my home.'\n",
+    "print(len(welcome_text))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "bc1617d3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "23\n"
+     ]
+    }
+   ],
+   "source": [
+    "welcome_text='Hi, welcome to my home.'\n",
+    "print(len(welcome_text))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "5f86fa9a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "HI, WELCOME TO MY HOME.\n"
+     ]
+    }
+   ],
+   "source": [
+    "welcome_text='Hi, welcome to my home.'\n",
+    "print(welcome_text.upper())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "646d2f47",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "HI, WELCOME TO MY HOME.\n",
+      "hi, welcome to my home.\n"
+     ]
+    }
+   ],
+   "source": [
+    "welcome_text='Hi, welcome to my home.'\n",
+    "up_case=welcome_text.upper()\n",
+    "low_case=welcome_text.lower()\n",
+    "\n",
+    "print(up_case)\n",
+    "print(low_case)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "2a9dfc9f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n",
+      "Hi, welcome to Fong's home.\n",
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "welcome_text='Hi, welcome to my home.'\n",
+    "print(welcome_text.find('m'))\n",
+    "print(welcome_text.replace('my',\"Fong's\"))\n",
+    "print('WElcome' in welcome_text)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "47eb69e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "first_num=10\n",
+    "sec_num=2\n",
+    "tot_val=first_num ^ sec_num\n",
+    "print(tot_val)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "069d3768",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math\n",
+    "print(math.floor(1.5))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "87603b83",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Pass\n"
+     ]
+    }
+   ],
+   "source": [
+    "mark=85\n",
+    "if mark>70:\n",
+    "    print('Pass')\n",
+    "    \n",
+    "else:\n",
+    "    print('Fail')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "56454a9a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your current weight? 80\n",
+      "What is your height in cm? 175\n",
+      "normal\n"
+     ]
+    }
+   ],
+   "source": [
+    "curr_weight=float(input('What is your current weight? '))\n",
+    "curr_height=float(input('What is your height in cm? '))\n",
+    "curr_BMI=curr_height/curr_weight\n",
+    "if curr_BMI>25:\n",
+    "    print('Obese')\n",
+    "    \n",
+    "else:\n",
+    "    print('normal')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "id": "3e486e9c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is the house price? 3000\n",
+      "Is the credit G/B? No\n",
+      "No credit info found!\n"
+     ]
+    }
+   ],
+   "source": [
+    "H_Price=int(input('What is the house price? '))\n",
+    "Credit=input('Is the credit G/B? ')\n",
+    "\n",
+    "if Credit=='G':\n",
+    "    print(H_Price*0.1)\n",
+    "    \n",
+    "elif Credit=='B':\n",
+    "    print(H_Price*0.3)\n",
+    "    \n",
+    "else:\n",
+    "    print('No credit info found!')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "id": "244f89c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3000  credit is good\n"
+     ]
+    }
+   ],
+   "source": [
+    "Income=3000\n",
+    "Credit='G'\n",
+    "if Income>1000 and Credit=='G':\n",
+    "    print(Income, ' credit is good')\n",
+    "else:\n",
+    "    print('Nothing')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 113,
+   "id": "25ae5b6e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Nothing\n"
+     ]
+    }
+   ],
+   "source": [
+    "Income=0\n",
+    "Credit='B'\n",
+    "if Income>1000 or Credit=='G':\n",
+    "    print(Income, ' credit is good')\n",
+    "else:\n",
+    "    print('Nothing')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "id": "f76c3784",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your name? Fong\n",
+      "Fong Name looks good\n"
+     ]
+    }
+   ],
+   "source": [
+    "Name=input('What is your name? ')\n",
+    "if len(Name)<3:\n",
+    "    print(Name, 'Name should be more than 3 char')\n",
+    "    \n",
+    "elif len(Name)>50:\n",
+    "    print(Name, 'Name should not exceed 50 char')\n",
+    "    \n",
+    "else:\n",
+    "    print(Name, 'Name looks good')"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "eb058327",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "5b4dc413",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your weight?85\n",
+      "Unit used (KG/LBS)? LOL\n",
+      "Use KG/LBS\n"
+     ]
+    }
+   ],
+   "source": [
+    "Curr_weight=float(input('What is your weight?'))\n",
+    "Unit_weight=input('Unit used (KG/LBS)? ')\n",
+    "if Unit_weight=='LBS':\n",
+    "    print(Curr_weight*0.453, 'KG')\n",
+    "    \n",
+    "elif Unit_weight=='KG':\n",
+    "    print(Curr_weight/.453, 'LBS')\n",
+    "    \n",
+    "else:\n",
+    "    print('Use KG/LBS')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 133,
+   "id": "ca5fd979",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " *\n",
+      " * * * *\n",
+      " * * * * * * *\n",
+      " * * * * * * * * * *\n",
+      "Done\n"
+     ]
+    }
+   ],
+   "source": [
+    "count=1\n",
+    "\n",
+    "while count<=10:\n",
+    "    print(count* ' *')\n",
+    "    count+=3\n",
+    "print('Done')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 155,
+   "id": "b299d46c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is the secret number? 1\n",
+      "Better luck next time\n",
+      "What is the secret number? 2\n",
+      "Better luck next time\n",
+      "What is the secret number? 3\n",
+      "You Won\n"
+     ]
+    }
+   ],
+   "source": [
+    "secret_number=3\n",
+    "guesscount=0\n",
+    "guesslim=3\n",
+    "\n",
+    "while guesscount<guesslim:\n",
+    "    guess=int(input('What is the secret number? '))\n",
+    "    guesscount+=1\n",
+    "    if guess==secret_number:\n",
+    "        print('You Won')\n",
+    "        break\n",
+    "    else:\n",
+    "        print('Better luck next time')\n",
+    "        \n",
+    "  \n",
+    "        \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 154,
+   "id": "cde733cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=[1,2,3,4,5]\n",
+    "\n",
+    "for number in x:\n",
+    "    print(number)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 152,
+   "id": "08a90315",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "P\n",
+      "y\n",
+      "t\n",
+      "h\n",
+      "o\n",
+      "n\n"
+     ]
+    }
+   ],
+   "source": [
+    "word='Python'\n",
+    "for letter in word:\n",
+    "    print(letter)\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 156,
+   "id": "0ddb4af1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "150\n"
+     ]
+    }
+   ],
+   "source": [
+    "cart=[10,20,30,40,50]\n",
+    "sum=0\n",
+    "\n",
+    "for num in cart:\n",
+    "    sum=sum+num\n",
+    "print(sum)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 159,
+   "id": "90c41a39",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Apple\n",
+      "A\n",
+      "p\n",
+      "p\n",
+      "l\n",
+      "e\n",
+      "Banana\n",
+      "B\n",
+      "a\n",
+      "n\n",
+      "a\n",
+      "n\n",
+      "a\n",
+      "Grapes\n",
+      "G\n",
+      "r\n",
+      "a\n",
+      "p\n",
+      "e\n",
+      "s\n",
+      "Kiwi\n",
+      "K\n",
+      "i\n",
+      "w\n",
+      "i\n",
+      "Watermelon\n",
+      "W\n",
+      "a\n",
+      "t\n",
+      "e\n",
+      "r\n",
+      "m\n",
+      "e\n",
+      "l\n",
+      "o\n",
+      "n\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruits=['Apple','Banana','Grapes','Kiwi','Watermelon']\n",
+    "for items in fruits:\n",
+    "    print(items)\n",
+    "    for letter in items:\n",
+    "        print(letter)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 162,
+   "id": "b40308a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Fong\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=[1,2,3,4,5]\n",
+    "name=['Fong', 'Alan', 'Mick','Susan','Adam']\n",
+    "print(name[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 166,
+   "id": "221c0c35",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "How many numbers: 4\n",
+      "Enter number 92\n",
+      "Enter number 56\n",
+      "Enter number 30\n",
+      "Enter number 100\n",
+      "Maximum element in the list is : 100 \n",
+      "Minimum element in the list is : 30\n"
+     ]
+    }
+   ],
+   "source": [
+    "lst = []\n",
+    "num = int(input('How many numbers: '))\n",
+    "for n in range(num):\n",
+    "    numbers = int(input('Enter number '))\n",
+    "    lst.append(numbers)\n",
+    "print(\"Maximum element in the list is :\", max(lst), \"\\nMinimum element in the list is :\", min(lst))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 171,
+   "id": "5f74adbb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "12\n",
+      "[1, 4, 6, 9, 12, 3]\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=[1,4,6,9,12]\n",
+    "x.append(3)\n",
+    "print(max(x))\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 172,
+   "id": "f65b7146",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "12\n",
+      "[1, 4, 6, 12]\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=[1,4,6,9,12]\n",
+    "x.pop(3)\n",
+    "print(max(x))\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 175,
+   "id": "fa73cf34",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=[1,4,6,9,12]\n",
+    "print(x.index(1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 177,
+   "id": "83b00648",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "Customer={'Name: John Cena','Contact: 1234','Address: No.3, 2nd Street'}\n",
+    "\n",
+    "#Name: John Cena\n",
+    "#Contact: 1234:\n",
+    "#Address: No.3, 2nd Street"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 178,
+   "id": "99930edd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Address: No.3, 2nd Street', 'Contact: 1234', 'Name: John Cena'}"
+      ]
+     },
+     "execution_count": 178,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Customer"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 179,
+   "id": "1d8b5183",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'set' object is not subscriptable",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m<ipython-input-179-743a15d07b2a>\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mCustomer\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;34m'Name'\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: 'set' object is not subscriptable"
+     ]
+    }
+   ],
+   "source": [
+    "print(Customer['Name'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 182,
+   "id": "1525623d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "John Cena\n"
+     ]
+    }
+   ],
+   "source": [
+    "Customer={'Name':'John Cena','Contact': 1234,'Address': 'No.3, 2nd Street'}\n",
+    "print(Customer['Name'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "916496df",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
